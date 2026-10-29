@@ -1,0 +1,32 @@
+=== lab1_rules.py ===
+
+Test: Successful application
+Expected: Review
+Actual: Review
+Result: PASS
+
+Test: Statement missing
+Expected: Hold
+Actual: Hold
+Result: PASS
+
+Test: Eligibility not confirmed
+Expected: Hold
+Actual: Hold
+Result: PASS
+
+Test: Boundary score
+Expected: Review
+Actual: Review
+Result: PASS
+
+
+=== lab1_compare.py ===
+
+CASE | SYMBOLIC | PROBABILITY | DISAGREEMENT
+Complete high | Review | Review | False
+Complete low | Hold | Review | True
+Incomplete high | Hold | Review | True
+Boundary | Review | Review | False
+
+Note: Probability values are synthetic examples, not predictions from a trained AI model.
